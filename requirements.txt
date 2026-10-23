@@ -1,0 +1,4 @@
+# Install the platform-specific PyTorch build first (see docs/ARRHENIUS.md).
+# This file installs the package and official dataset adapters without choosing
+# a CUDA wheel index for a different architecture.
+-e .[datasets]
