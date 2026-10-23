@@ -1,0 +1,7 @@
+{
+  "dataset": "PATTERN",
+  "L_star": 16,
+  "L_max": 64,
+  "bank": "P0,Pg,Pc,Px",
+  "r_min": 2
+}

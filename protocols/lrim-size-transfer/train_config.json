@@ -1,0 +1,7 @@
+{
+  "dataset": "LRIM-16",
+  "L_star": 32,
+  "L_max": 64,
+  "bank": "P0,Pg,Px,Pc",
+  "r_min": 8
+}

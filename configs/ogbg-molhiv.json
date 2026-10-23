@@ -1,0 +1,7 @@
+{
+  "dataset": "ogbg-molhiv",
+  "L_star": 16,
+  "L_max": 64,
+  "bank": "P0,Pg,Pf,Px",
+  "r_min": 4
+}

@@ -1,0 +1,301 @@
+{
+  "recorded_utc": "2026-10-23T17:15:46.647710+00:00",
+  "scope": "Release execution and numerical validation; not paper benchmark reproduction",
+  "environment": {
+    "python": "3.12.14",
+    "system": "Linux",
+    "architecture": "x86_64",
+    "device": "cpu",
+    "torch": "2.5.1+cpu",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch-geometric": "2.7.0",
+    "ogb": "1.3.6"
+  },
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 75,
+    "passed": 75,
+    "failed": 0,
+    "skipped": 0
+  },
+  "full_pipeline_checks": [
+    {
+      "dataset": "ogbn-arxiv",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "ogbn-products",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "ogbn-proteins",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "roman-empire",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "amazon-ratings",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "minesweeper",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "pascalvoc-sp",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "coco-sp",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "peptides-func",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "peptides-struct",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "pattern",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "cluster",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "lrim-16",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "lrim-32",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "lrim-64",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "lrim-128",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "cifar10",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "zinc",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "mnist",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "malnet-tiny",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "ogbg-molhiv",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "pcqm-contact",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "ogbg-molpcba",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    },
+    {
+      "dataset": "ogbg-ppa",
+      "preset": "smoke",
+      "synthetic": true,
+      "stages": "all",
+      "status": "passed",
+      "release_source_identity_verified": true
+    }
+  ],
+  "two_seed_and_resume": {
+    "dataset": "ogbn-arxiv",
+    "synthetic": true,
+    "seeds": [
+      0,
+      1
+    ],
+    "run_exit_code": 0,
+    "resume_exit_code": 0,
+    "artifact_hashes_unchanged_on_resume": true,
+    "verified_artifacts": 120,
+    "summary_rows": 152,
+    "all_summary_rows_use_two_seeds": true,
+    "seconds": 29.74232292175293
+  },
+  "official_data_checks": [
+    {
+      "dataset": "Minesweeper",
+      "nodes": 10000,
+      "features": 7,
+      "targets": [
+        10000,
+        1
+      ],
+      "synthetic": false,
+      "checks": [
+        "official download and preprocessing",
+        "two-layer propagation",
+        "finite loss and backward gradients"
+      ]
+    },
+    {
+      "dataset": "LRIM-16",
+      "release_graphs": 10000,
+      "inspected_nodes": 256,
+      "inspected_directed_arcs": 1024,
+      "features": 17,
+      "targets": [
+        256,
+        1
+      ],
+      "synthetic": false,
+      "checks": [
+        "official download and preprocessing",
+        "two-layer propagation",
+        "finite loss and backward gradients",
+        "optimized RWSE equals sparse matrix powers"
+      ]
+    }
+  ],
+  "runtime_validation": {
+    "device": "cpu",
+    "projection_max_violation": 0.0,
+    "sparse_forward_backward_finite": true
+  },
+  "package_checks": {
+    "python_files_compiled": 47,
+    "shell_scripts_syntax_checked": 26,
+    "relative_markdown_links_checked": 57,
+    "missing_relative_links": [],
+    "wheel_build_passed": true
+  },
+  "source_sha256": {
+    "__init__.py": "c045ecef31ba67ceed4524671873ecb36d5ad802953e2c9532e88fbf741ee1db",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "cli.py": "74d1b3d457e4cbf273bcd6540a02c10d521b2a41356234d43f0a009f442f3e2b",
+    "control.py": "e3bb17ff054867e75c673e5cced61a12641466271b70daf85bc467fc9b457a10",
+    "datasets.py": "64aac0437585d660b5a105ee9d98ff85618c45a400df0d56fdb6287f2b8ae309",
+    "evaluation.py": "bb9203fc08b07fa903cc119f5ba2ebb3bdb0904a6cb01592b5627eec71824b60",
+    "model.py": "8a87f3f63884ae9907ab11064371c16e0221013094d34dc56a62be055da84bd7",
+    "ogb_compat.py": "7c97122a1eca51d482fa1452516a2c5f799a8a777988f95ce6efd91de1510097",
+    "registry.py": "0375c6d72a5b472f99bee6a434a7a1d4dc4463ad23ad444cc6556f43486d697b",
+    "runner.py": "a591372a9f1629df00f575d881774f19ea0433f045f29eca524e4a257edcd35b",
+    "tasks.py": "90b097d70e75aeecf04e10a2dc57139675cab5081a9713cabdf4f48140af5b3d",
+    "training.py": "c83b449972e92bbb94620dc71c510abb44b553fec4d695db1c8c7ed7bb339278",
+    "transfer.py": "bdd6e555db77e9aac3ed9878cc1d550c52cdca1182612e453d8a62ad97eba859"
+  },
+  "not_run": [
+    "Live Arrhenius/Slurm GPU execution",
+    "Official full-budget training on all datasets",
+    "Fresh OGB archive download (endpoint unavailable)",
+    "Official LRIM-256 transfer inference",
+    "Published comparison matrix and statistical reproduction",
+    "GitHub-hosted Actions execution"
+  ]
+}

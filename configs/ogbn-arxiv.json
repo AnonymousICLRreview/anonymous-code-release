@@ -1,0 +1,7 @@
+{
+  "dataset": "ogbn-arxiv",
+  "L_star": 32,
+  "L_max": 64,
+  "bank": "P0,Pr0,Pg,Pf",
+  "r_min": 2
+}

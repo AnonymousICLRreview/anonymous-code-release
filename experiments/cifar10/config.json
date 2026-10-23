@@ -1,0 +1,7 @@
+{
+  "dataset": "CIFAR10",
+  "L_star": 32,
+  "L_max": 64,
+  "bank": "P0,Pg,Pf,Pc",
+  "r_min": 4
+}

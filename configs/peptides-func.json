@@ -1,0 +1,7 @@
+{
+  "dataset": "Peptides-func",
+  "L_star": 32,
+  "L_max": 64,
+  "bank": "P0,Pg,Pf,Px",
+  "r_min": 8
+}

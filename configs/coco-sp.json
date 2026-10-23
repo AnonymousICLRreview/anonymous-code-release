@@ -1,0 +1,7 @@
+{
+  "dataset": "COCO-SP",
+  "L_star": 64,
+  "L_max": 64,
+  "bank": "P0,Pg,Pf,Pc",
+  "r_min": 4
+}
